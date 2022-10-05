@@ -1,0 +1,282 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+:root {
+    --site-background-color: #2196F3;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+    
+   
+.header-logo {
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: var(--site-background-color);
+        text-decoration: none;
+}
+
+.header-logo-studio {
+    color: black;
+}
+
+.footer-logo-studio {
+    color: #FFFFFF ;
+}
+
+.header-elements {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    
+    }
+
+
+.header-elements:hover {
+    color: var(--site-background-color);
+   }
+   
+.header-elements:focus {
+    color: var(--site-background-color);
+     }
+
+.current {
+    color: var(--site-background-color);
+
+}    
+
+.header-portfolio {
+        list-style-type: none;
+        }
+
+.header-mail {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        color: #757575;
+        text-decoration: none;
+        letter-spacing: 0.02em;
+}
+
+.header-mail:hover {
+   color: #2196F3;
+}
+
+.header-mail:focus {
+    color: #2196F3;
+}
+
+.header-telephone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.header-telephone:hover {
+    color: #2196F3;
+}
+
+.header-telephone:focus {
+    color: #2196F3;
+}
+
+.central {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        color: #FFFFFF;
+        letter-spacing: 0.06em;
+}
+
+.central-background {
+    background-color: #2F303A;
+}
+
+.button-bg {
+    background-color: #2196F3;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #FFFFFF;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+}
+
+
+
+.main-li {
+list-style-type: none
+}
+
+.main-title {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        }
+
+.main-text {
+    
+        font-size: 14px;
+        line-height: 1.7;
+        color: #757575;
+}
+
+.central-2 {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+}
+
+.main-img {
+    list-style-type: none;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.main-team {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        color: #212121;
+}
+
+.text-team {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #757575;
+    letter-spacing: 0.03em;
+
+}
+
+.adress-map {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: #FFFFFF;
+        cursor: pointer;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+       
+}
+
+.address {
+    background-color: #2F303A;
+
+}
+.address-ul {
+    list-style-type: none;
+    font-style: normal;
+    
+}
+
+.button-port {
+    list-style-type: none;
+}
+
+.button-port-li {
+    background: #F5F4FA;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #212121;
+        cursor: pointer;
+        font-family: inherit;
+}
+
+.button-port-li:hover {
+    background: #2196F3;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #FFFFFF;
+        cursor: pointer;
+}
+
+.button-port-li:focus {
+    background: #2196F3;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #FFFFFF;
+        cursor: pointer;
+}
+
+.product-title {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        color: #212121;
+        letter-spacing: 0.06em;
+}
+
+.product-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        color: #757575;
+}
+
+.footer-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF99;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.footer-mail:hover {
+    color: #2196F3;
+}
+
+.footer-mail:focus {
+    color: #2196F3;
+}
+
+.footer-telephone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF99;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.footer-telephone:hover {
+    color: #2196F3;
+}
+
+.footer-telephone:focus {
+    color: #2196F3;
